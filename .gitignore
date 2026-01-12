@@ -1,0 +1,32 @@
+# WordPress Core (ignore all php in root except our own scripts if any)
+/*.php
+!wp-config.php
+# But wait, we want to IGNORE wp-config.php because it has secrets!
+wp-config.php
+
+# WordPress Directories
+wp-admin/
+wp-includes/
+
+# Uploads and Cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+
+# Docker / Local Environment
+db_data/
+*.sql
+*.log
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+license.txt
+readme.html
+
+# Node/FE
+node_modules/
+dist/
+build/
