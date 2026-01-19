@@ -19,4 +19,4 @@ jobs:
         env:
           SSHPASS: ${{ secrets.HOSTINGER_PASSWORD }}
         run: |
-          sshpass -e rsync -avz -e "ssh -p 65002 -o StrictHostKeyChecking=no" --exclude '.git*' --exclude 'wp-config.php' --exclude '.env' --exclude '.github' ./ ${{ secrets.HOSTINGER_USER }}@${{ secrets.HOSTINGER_HOST }}:domains/manusantana.com/public_html/
+          sshpass -e rsync -avz -e "ssh -p 65002 -o StrictHostKeyChecking=no" --exclude '.git*' --exclude 'wp-config.php' --exclude '.env' --exclude '.github' ./ u640336053@82.25.102.202:domains/manusantana.com/public_html/
