@@ -1,32 +1,52 @@
 # WordPress Core (ignore all php in root except our own scripts if any)
-/*.php
-!wp-config.php
-# But wait, we want to IGNORE wp-config.php because it has secrets!
-wp-config.php
-
-# WordPress Directories
 wp-admin/
 wp-includes/
+# Ignorar archivos raíz de WP que no deberíamos tocar/versionar si usamos Docker completo o si son generados
+# Pero permitir wp-content y temas
+*.php
+!wp-content/
+!check_dir.exp
+!upload_file.exp
+!sync_prod.exp
 
-# Uploads and Cache
+# Specific allowed files in root if needed (adjust as necessary)
+!index.php
+
+# Configuration secrets
+wp-config.php
+wp-config.php.bak
+wp-config.php.local_backup
+.env
+
+# Content exclusions
 wp-content/uploads/
-wp-content/cache/
 wp-content/upgrade/
+wp-content/cache/
 wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
 
 # Docker / Local Environment
 db_data/
 *.sql
 *.log
-.env
+*.tar.gz
+*.zip
 
 # OS generated files
 .DS_Store
 Thumbs.db
 license.txt
 readme.html
+xmlrpc.php
 
 # Node/FE
 node_modules/
 dist/
 build/
+.env
+
+# IDEs
+.vscode/
+.idea/
