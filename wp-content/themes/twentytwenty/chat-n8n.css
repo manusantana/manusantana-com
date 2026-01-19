@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 .n8n-chat pre code.hljs {
   display: block;
@@ -103,45 +104,58 @@
 }
 
 :root {
-  --chat--color-primary: #1F3A8A;
-  /* Darker blue for a premium feel */
-  --chat--color-primary-shade-50: #1E40AF;
-  --chat--color-primary-shade-100: #1D4ED8;
-  --chat--color-secondary: #296258;
-  --chat--color-secondary-shade-50: #1ca08a;
+  /* New Brand Colors */
+  --chat--color-primary: #1B6E98;
+  /* Principal */
+  --chat--color-primary-shade-50: #155a7d;
+  --chat--color-primary-shade-100: #0f4662;
+  --chat--color-secondary: #0F3F54;
+  /* Enfasis */
+  --chat--color-secondary-shade-50: #0a2d3d;
+  --chat--color-dark: #011640;
+  /* Texto */
+
   --chat--color-white: #ffffff;
   --chat--color-light: #f8fafc;
-  /* Softer white */
   --chat--color-light-shade-50: #e2e8f0;
   --chat--color-light-shade-100: #cbd5e1;
   --chat--color-medium: #94a3b8;
-  --chat--color-dark: #334155;
-  /* Softer dark text */
+
   --chat--color-disabled: #94a3b8;
   --chat--color-typing: #475569;
-  --chat--spacing: 0.75rem;
+
+  --chat--spacing: 1rem;
   --chat--border-radius: 12px;
-  /* Smoother corners */
   --chat--transition-duration: .20s;
   --chat--window--width: 380px;
-  /* Slightly narrower for elegance */
   --chat--window--height: 600px;
   --chat--window--border-radius: 16px;
-  /* Modern window shape */
+
   --chat--textarea--height: 50px;
+
   --chat--message--bot--background: var(--chat--color-white);
   --chat--message--bot--color: var(--chat--color-dark);
   --chat--message--user--background: var(--chat--color-primary);
   --chat--message--user--color: var(--chat--color-white);
   --chat--message--pre--background: rgba(0, 0, 0, .05);
+
   --chat--toggle--background: var(--chat--color-primary);
   --chat--toggle--hover--background: var(--chat--color-primary-shade-50);
   --chat--toggle--active--background: var(--chat--color-primary-shade-100);
   --chat--toggle--color: var(--chat--color-white);
-  --chat--toggle--size: 50px;
-  --chat--heading--font-size: 1.1rem;
-  /* Reduced from 2em */
-  --chat--font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  --chat--toggle--size: 60px;
+  --chat--heading--font-size: 1.2rem;
+
+  /* Font Family Update */
+  --chat--font-family: 'Space Grotesk',
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
 }
 
 .chat-window {
@@ -475,8 +489,9 @@ body[data-theme=dark] .hljs-deletion {
 }
 
 .chat-message-markdown {
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 18px;
+  /* Tidio style 18px */
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   word-break: break-word
 }
@@ -1030,10 +1045,10 @@ body[data-theme=dark] .hljs-deletion {
   padding: .8rem;
   padding-right: calc(.8rem + var(--controls-count, 1) * var(--chat--textarea--height));
   min-height: var(--chat--textarea--height);
-  max-height: var(--chat--textarea--max-height, var(--chat--textarea--height));
-  height: 100%;
+  max-height: 200px;
+  height: auto;
   background: var(--chat--input--background, white);
-  resize: var(--chat--textarea--resize, none);
+  resize: vertical;
   color: var(--chat--input--text-color, initial);
   outline: none
 }
@@ -1110,7 +1125,9 @@ body[data-theme=dark] .hljs-deletion {
   border-top: var(--chat--header--border-top, none);
   border-bottom: var(--chat--header--border-bottom, none);
   border-left: var(--chat--header--border-left, none);
-  border-right: var(--chat--header--border-right, none)
+  border-right: var(--chat--header--border-right, none);
+  border-top-left-radius: var(--chat--window--border-radius);
+  border-top-right-radius: var(--chat--window--border-radius)
 }
 
 .chat-layout .chat-header h1 {
