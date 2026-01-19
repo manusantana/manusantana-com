@@ -1,0 +1,464 @@
+{
+    "content": [
+        {
+            "id": "sol_hero_section",
+            "elType": "section",
+            "settings": {
+                "layout": "full_width",
+                ,
+                "padding": {
+                    "unit": "px",
+                    "top": 80,
+                    "bottom": 80,
+                    "left": 20,
+                    "right": 20
+                },
+                "background_background": "gradient",
+                "background_color": "#0F1A29",
+                "background_color_b": "#1D2B3F",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 135
+                }
+            },
+            "elements": [
+                {
+                    "id": "sol_hero_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "sol_hero_badge",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "SOLUCIONES INTEGRALES",
+                                "align": "center",
+                                "title_color": "rgba(245, 247, 250, 0.6)",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "typography_font_weight": "600",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 2
+                                }
+                            }
+                        },
+                        {
+                            "id": "sol_hero_h1",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Los 3 Pilares del Crecimiento B2B",
+                                "align": "center",
+                                "header_size": "h1",
+                                "title_color": "#ffffff",
+                                "typography_font_family": "Space Grotesk",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 3.5
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": 20,
+                                    "bottom": 20
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sol_grid_section",
+            "elType": "section",
+            "settings": {
+                "background_color": "#F0F4F8",
+                "padding": {
+                    "unit": "px",
+                    "top": 80,
+                    "bottom": 100
+                }
+            },
+            "elements": [
+                {
+                    "id": "sol_grid_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "sol_grid_inner",
+                            "elType": "section",
+                            "isInner": true,
+                            "settings": {},
+                            "elements": [
+                                {
+                                    "id": "card_1",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "rgba(255,255,255,0.8)",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": 16,
+                                            "bottom": 16,
+                                            "left": 16,
+                                            "right": 16,
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 32,
+                                            "bottom": 32,
+                                            "left": 24,
+                                            "right": 24
+                                        },
+                                        "box_shadow": {
+                                            "horizontal": 0,
+                                            "vertical": 8,
+                                            "blur": 32,
+                                            "spread": 0,
+                                            "color": "rgba(15, 26, 41, 0.05)"
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10,
+                                            "bottom": 20
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon1",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-bullseye",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#026E99",
+                                                "secondary_color": "#E0F2FE",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 12,
+                                                    "bottom": 12,
+                                                    "left": 12,
+                                                    "right": 12
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "num1",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "01",
+                                                "align": "right",
+                                                "title_color": "rgba(15, 26, 41, 0.05)",
+                                                "typography_font_size": {
+                                                    "unit": "rem",
+                                                    "size": 3
+                                                },
+                                                "typography_font_weight": "bold",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": -60
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "tit1",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Growth B2B & Demanda",
+                                                "header_size": "h4",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "desc1",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Estrategias de Account Based Marketing y expansión internacional.",
+                                                "text_color": "#486581"
+                                            }
+                                        },
+                                        {
+                                            "id": "btn1",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Ver Detalles",
+                                                "background_color": "rgba(0,0,0,0)",
+                                                "button_text_color": "#026E99",
+                                                "align": "left",
+                                                "typography_font_weight": "600",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "left": 0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_2",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "rgba(255,255,255,0.8)",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": 16,
+                                            "bottom": 16,
+                                            "left": 16,
+                                            "right": 16,
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 32,
+                                            "bottom": 32,
+                                            "left": 24,
+                                            "right": 24
+                                        },
+                                        "box_shadow": {
+                                            "horizontal": 0,
+                                            "vertical": 8,
+                                            "blur": 32,
+                                            "spread": 0,
+                                            "color": "rgba(15, 26, 41, 0.05)"
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10,
+                                            "bottom": 20
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon2",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-microchip",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#8B5CF6",
+                                                "secondary_color": "#F3E8FF",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 12,
+                                                    "bottom": 12,
+                                                    "left": 12,
+                                                    "right": 12
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "num2",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "02",
+                                                "align": "right",
+                                                "title_color": "rgba(15, 26, 41, 0.05)",
+                                                "typography_font_size": {
+                                                    "unit": "rem",
+                                                    "size": 3
+                                                },
+                                                "typography_font_weight": "bold",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": -60
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "tit2",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "IA & Marketing Ops",
+                                                "header_size": "h4",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "desc2",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Digitalizamos procesos técnicos y creamos workflows automáticos.",
+                                                "text_color": "#486581"
+                                            }
+                                        },
+                                        {
+                                            "id": "btn2",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Ver Detalles",
+                                                "background_color": "rgba(0,0,0,0)",
+                                                "button_text_color": "#8B5CF6",
+                                                "align": "left",
+                                                "typography_font_weight": "600",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "left": 0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_3",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "rgba(255,255,255,0.8)",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": 16,
+                                            "bottom": 16,
+                                            "left": 16,
+                                            "right": 16,
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 32,
+                                            "bottom": 32,
+                                            "left": 24,
+                                            "right": 24
+                                        },
+                                        "box_shadow": {
+                                            "horizontal": 0,
+                                            "vertical": 8,
+                                            "blur": 32,
+                                            "spread": 0,
+                                            "color": "rgba(15, 26, 41, 0.05)"
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10,
+                                            "bottom": 20
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon3",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-chart-line",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#F59E0B",
+                                                "secondary_color": "#FEF3C7",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 12,
+                                                    "bottom": 12,
+                                                    "left": 12,
+                                                    "right": 12
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "num3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "03",
+                                                "align": "right",
+                                                "title_color": "rgba(15, 26, 41, 0.05)",
+                                                "typography_font_size": {
+                                                    "unit": "rem",
+                                                    "size": 3
+                                                },
+                                                "typography_font_weight": "bold",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": -60
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "tit3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "RevOps & Ventas",
+                                                "header_size": "h4",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "desc3",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Implementación de CRM y Dashboards financieros.",
+                                                "text_color": "#486581"
+                                            }
+                                        },
+                                        {
+                                            "id": "btn3",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Ver Detalles",
+                                                "background_color": "rgba(0,0,0,0)",
+                                                "button_text_color": "#F59E0B",
+                                                "align": "left",
+                                                "typography_font_weight": "600",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "left": 0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Manu Soluciones Landing",
+    "type": "page"
+}

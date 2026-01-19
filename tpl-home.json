@@ -1,0 +1,951 @@
+{
+    "content": [
+        {
+            "id": "hero_section",
+            "elType": "section",
+            "settings": {
+                "layout": "full_width",
+                "structure": "10",
+                "margin": {
+                    "unit": "px",
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": 120,
+                    "bottom": 120,
+                    "left": 20,
+                    "right": 20,
+                    "isLinked": false
+                },
+                "background_background": "gradient",
+                "background_color": "#0F1A29",
+                "background_color_b": "#1D2B3F",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 135
+                }
+            },
+            "elements": [
+                {
+                    "id": "hero_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "layout": "default"
+                    },
+                    "elements": [
+                        {
+                            "id": "hero_badge",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Consultor Estratégico B2B · IA & Growth",
+                                "header_size": "div",
+                                "align": "center",
+                                "title_color": "#F5F7FA",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1
+                                },
+                                "_background_background": "classic",
+                                "_background_color": "rgba(245, 247, 250, 0.1)",
+                                "_border_radius": {
+                                    "unit": "px",
+                                    "top": 50,
+                                    "bottom": 50,
+                                    "left": 50,
+                                    "right": 50,
+                                    "isLinked": true
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": 8,
+                                    "bottom": 8,
+                                    "left": 16,
+                                    "right": 16,
+                                    "isLinked": false
+                                },
+                                "width": "inline",
+                                "_margin": {
+                                    "unit": "px",
+                                    "bottom": 24,
+                                    "left": "auto",
+                                    "right": "auto"
+                                }
+                            }
+                        },
+                        {
+                            "id": "hero_h1",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Escala tu B2B unificando <span style=\"background: linear-gradient(135deg, #4FA1CA 0%, #A78BFA 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;\">Estrategia Comercial</span> e <span style=\"background: linear-gradient(135deg, #4FA1CA 0%, #A78BFA 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;\">Inteligencia Artificial</span>.",
+                                "header_size": "h1",
+                                "align": "center",
+                                "title_color": "#F5F7FA",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Space Grotesk",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 3.5,
+                                    "tablet": 2.5,
+                                    "mobile": 2
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1
+                                }
+                            }
+                        },
+                        {
+                            "id": "hero_text",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p>De la captación al cierre. Transformo departamentos de marketing y ventas implementando flujos de trabajo automatizados que generan ingresos reales.</p>",
+                                "align": "center",
+                                "text_color": "rgba(245, 247, 250, 0.7)",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 1.25
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": 20,
+                                    "bottom": 40
+                                }
+                            }
+                        },
+                        {
+                            "id": "hero_buttons",
+                            "elType": "section",
+                            "isInner": true,
+                            "settings": {
+                                "content_width": "auto"
+                            },
+                            "elements": [
+                                {
+                                    "id": "btn_col_1",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 50
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "btn_primary",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Ver Soluciones",
+                                                "align": "right",
+                                                "button_text_color": "#ffffff",
+                                                "background_background": "gradient",
+                                                "background_color": "#4FA1CA",
+                                                "background_color_b": "#A78BFA",
+                                                "background_gradient_angle": {
+                                                    "unit": "deg",
+                                                    "size": 135
+                                                },
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 50,
+                                                    "bottom": 50,
+                                                    "left": 50,
+                                                    "right": 50,
+                                                    "isLinked": true
+                                                },
+                                                "typography_font_weight": "600",
+                                                "button_padding": {
+                                                    "unit": "px",
+                                                    "top": 16,
+                                                    "bottom": 16,
+                                                    "left": 32,
+                                                    "right": 32
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "btn_col_2",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 50
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "btn_secondary",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Agendar Diagnóstico",
+                                                "align": "left",
+                                                "button_text_color": "#ffffff",
+                                                "background_color": "rgba(255,255,255,0.1)",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 50,
+                                                    "bottom": 50,
+                                                    "left": 50,
+                                                    "right": 50,
+                                                    "isLinked": true
+                                                },
+                                                "typography_font_weight": "500",
+                                                "button_padding": {
+                                                    "unit": "px",
+                                                    "top": 16,
+                                                    "bottom": 16,
+                                                    "left": 32,
+                                                    "right": 32
+                                                },
+                                                "border_width": {
+                                                    "unit": "px",
+                                                    "top": 1,
+                                                    "bottom": 1,
+                                                    "left": 1,
+                                                    "right": 1,
+                                                    "isLinked": true
+                                                },
+                                                "border_color": "rgba(255,255,255,0.3)"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "social_proof",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "TECNOLOGÍAS QUE IMPLEMENTO: HUBSPOT · POWERBI · OPENAI · SALESFORCE · PYTHON",
+                                "header_size": "div",
+                                "align": "center",
+                                "title_color": "rgba(245, 247, 250, 0.4)",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 12
+                                },
+                                "typography_font_weight": "600",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 2
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": 60
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "solutions_section",
+            "elType": "section",
+            "settings": {
+                "background_color": "#F0F4F8",
+                "padding": {
+                    "unit": "px",
+                    "top": 100,
+                    "bottom": 100,
+                    "left": 20,
+                    "right": 20
+                }
+            },
+            "elements": [
+                {
+                    "id": "sol_header_col",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "sol_badge",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "01.0 — Soluciones",
+                                "align": "center",
+                                "title_color": "#026E99",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "600",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1
+                                }
+                            }
+                        },
+                        {
+                            "id": "sol_h2",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Los 3 Pilares del Crecimiento B2B",
+                                "align": "center",
+                                "header_size": "h2",
+                                "title_color": "#0F1A29",
+                                "typography_font_family": "Space Grotesk",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 2.5
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": 10,
+                                    "bottom": 20
+                                }
+                            }
+                        },
+                        {
+                            "id": "sol_intro",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "Un enfoque integrado que conecta estrategia comercial, tecnología y datos.",
+                                "align": "center",
+                                "text_color": "#486581",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 1.1
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "bottom": 60
+                                }
+                            }
+                        },
+                        {
+                            "id": "sol_grid_inner",
+                            "elType": "section",
+                            "isInner": true,
+                            "settings": {},
+                            "elements": [
+                                {
+                                    "id": "card_1",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "rgba(255,255,255,0.8)",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": 16,
+                                            "bottom": 16,
+                                            "left": 16,
+                                            "right": 16,
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 32,
+                                            "bottom": 32,
+                                            "left": 24,
+                                            "right": 24
+                                        },
+                                        "box_shadow": {
+                                            "horizontal": 0,
+                                            "vertical": 8,
+                                            "blur": 32,
+                                            "spread": 0,
+                                            "color": "rgba(15, 26, 41, 0.05)"
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10,
+                                            "bottom": 20
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon1",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-bullseye",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#026E99",
+                                                "secondary_color": "#E0F2FE",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 12,
+                                                    "bottom": 12,
+                                                    "left": 12,
+                                                    "right": 12
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "num1",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "01",
+                                                "align": "right",
+                                                "title_color": "rgba(15, 26, 41, 0.05)",
+                                                "typography_font_size": {
+                                                    "unit": "rem",
+                                                    "size": 3
+                                                },
+                                                "typography_font_weight": "bold",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": -60
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "tit1",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Growth B2B & Demanda",
+                                                "header_size": "h4",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "desc1",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Estrategias de Account Based Marketing y expansión internacional.",
+                                                "text_color": "#486581"
+                                            }
+                                        },
+                                        {
+                                            "id": "btn1",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Saber más ->",
+                                                "background_color": "rgba(0,0,0,0)",
+                                                "button_text_color": "#026E99",
+                                                "align": "left",
+                                                "typography_font_weight": "600",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "left": 0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_2",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "rgba(255,255,255,0.8)",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": 16,
+                                            "bottom": 16,
+                                            "left": 16,
+                                            "right": 16,
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 32,
+                                            "bottom": 32,
+                                            "left": 24,
+                                            "right": 24
+                                        },
+                                        "box_shadow": {
+                                            "horizontal": 0,
+                                            "vertical": 8,
+                                            "blur": 32,
+                                            "spread": 0,
+                                            "color": "rgba(15, 26, 41, 0.05)"
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10,
+                                            "bottom": 20
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon2",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-microchip",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#8B5CF6",
+                                                "secondary_color": "#F3E8FF",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 12,
+                                                    "bottom": 12,
+                                                    "left": 12,
+                                                    "right": 12
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "num2",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "02",
+                                                "align": "right",
+                                                "title_color": "rgba(15, 26, 41, 0.05)",
+                                                "typography_font_size": {
+                                                    "unit": "rem",
+                                                    "size": 3
+                                                },
+                                                "typography_font_weight": "bold",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": -60
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "tit2",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "IA & Marketing Ops",
+                                                "header_size": "h4",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "desc2",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Digitalizamos procesos técnicos y creamos workflows automáticos.",
+                                                "text_color": "#486581"
+                                            }
+                                        },
+                                        {
+                                            "id": "btn2",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Saber más ->",
+                                                "background_color": "rgba(0,0,0,0)",
+                                                "button_text_color": "#8B5CF6",
+                                                "align": "left",
+                                                "typography_font_weight": "600",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "left": 0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_3",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "rgba(255,255,255,0.8)",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": 16,
+                                            "bottom": 16,
+                                            "left": 16,
+                                            "right": 16,
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 32,
+                                            "bottom": 32,
+                                            "left": 24,
+                                            "right": 24
+                                        },
+                                        "box_shadow": {
+                                            "horizontal": 0,
+                                            "vertical": 8,
+                                            "blur": 32,
+                                            "spread": 0,
+                                            "color": "rgba(15, 26, 41, 0.05)"
+                                        },
+                                        "_margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10,
+                                            "bottom": 20
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon3",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-chart-line",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#F59E0B",
+                                                "secondary_color": "#FEF3C7",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": 12,
+                                                    "bottom": 12,
+                                                    "left": 12,
+                                                    "right": 12
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "num3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "03",
+                                                "align": "right",
+                                                "title_color": "rgba(15, 26, 41, 0.05)",
+                                                "typography_font_size": {
+                                                    "unit": "rem",
+                                                    "size": 3
+                                                },
+                                                "typography_font_weight": "bold",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": -60
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "tit3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "RevOps & Ventas",
+                                                "header_size": "h4",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "desc3",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Implementación de CRM y Dashboards financieros.",
+                                                "text_color": "#486581"
+                                            }
+                                        },
+                                        {
+                                            "id": "btn3",
+                                            "elType": "widget",
+                                            "widgetType": "button",
+                                            "settings": {
+                                                "text": "Saber más ->",
+                                                "background_color": "rgba(0,0,0,0)",
+                                                "button_text_color": "#F59E0B",
+                                                "align": "left",
+                                                "typography_font_weight": "600",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "left": 0
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "metrics_section",
+            "elType": "section",
+            "settings": {
+                "background_color": "#026E99",
+                "padding": {
+                    "unit": "px",
+                    "top": 80,
+                    "bottom": 80
+                }
+            },
+            "elements": [
+                {
+                    "id": "metrics_inner",
+                    "elType": "section",
+                    "isInner": true,
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "met_1",
+                            "elType": "column",
+                            "settings": {
+                                "_column_size": 33
+                            },
+                            "elements": [
+                                {
+                                    "id": "mval1",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "+2.8M€",
+                                        "align": "center",
+                                        "title_color": "#ffffff",
+                                        "typography_font_size": {
+                                            "unit": "rem",
+                                            "size": 3.5
+                                        },
+                                        "typography_font_weight": "bold"
+                                    }
+                                },
+                                {
+                                    "id": "mlab1",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Generados en nuevos negocios",
+                                        "align": "center",
+                                        "title_color": "#E0F2FE",
+                                        "header_size": "h5"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "met_2",
+                            "elType": "column",
+                            "settings": {
+                                "_column_size": 33
+                            },
+                            "elements": [
+                                {
+                                    "id": "mval2",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "1.200+",
+                                        "align": "center",
+                                        "title_color": "#ffffff",
+                                        "typography_font_size": {
+                                            "unit": "rem",
+                                            "size": 3.5
+                                        },
+                                        "typography_font_weight": "bold"
+                                    }
+                                },
+                                {
+                                    "id": "mlab2",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Clientes B2B Captados",
+                                        "align": "center",
+                                        "title_color": "#E0F2FE",
+                                        "header_size": "h5"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "met_3",
+                            "elType": "column",
+                            "settings": {
+                                "_column_size": 33
+                            },
+                            "elements": [
+                                {
+                                    "id": "mval3",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "20%",
+                                        "align": "center",
+                                        "title_color": "#ffffff",
+                                        "typography_font_size": {
+                                            "unit": "rem",
+                                            "size": 3.5
+                                        },
+                                        "typography_font_weight": "bold"
+                                    }
+                                },
+                                {
+                                    "id": "mlab3",
+                                    "elType": "widget",
+                                    "widgetType": "heading",
+                                    "settings": {
+                                        "title": "Reducción de CAC",
+                                        "align": "center",
+                                        "title_color": "#E0F2FE",
+                                        "header_size": "h5"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "about_section",
+            "elType": "section",
+            "settings": {
+                "background_color": "#ffffff",
+                "padding": {
+                    "unit": "px",
+                    "top": 100,
+                    "bottom": 100
+                }
+            },
+            "elements": [
+                {
+                    "id": "ab_col_txt",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 50,
+                        "padding": {
+                            "unit": "px",
+                            "right": 40
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "ab_badge",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "03.0 — El Consultor",
+                                "title_color": "#026E99",
+                                "typography_typography": "custom",
+                                "typography_font_weight": "600",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                }
+                            }
+                        },
+                        {
+                            "id": "ab_h2",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Perfil Híbrido: Ejecutivo + Técnico",
+                                "header_size": "h2",
+                                "title_color": "#0F1A29",
+                                "typography_font_family": "Space Grotesk"
+                            }
+                        },
+                        {
+                            "id": "ab_p",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "Más de una década liderando equipos de Marketing y Ventas en empresas B2B. No solo diseño estrategias, las implemento con código.",
+                                "text_color": "#486581",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 1.1
+                                }
+                            }
+                        },
+                        {
+                            "id": "ab_btn",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Agendar Diagnóstico",
+                                "background_background": "gradient",
+                                "background_color": "#4FA1CA",
+                                "background_color_b": "#A78BFA",
+                                "background_gradient_angle": {
+                                    "unit": "deg",
+                                    "size": 135
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": 50,
+                                    "bottom": 50,
+                                    "left": 50,
+                                    "right": 50
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": 20
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "ab_col_img",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 50
+                    },
+                    "elements": [
+                        {
+                            "id": "ab_img",
+                            "elType": "widget",
+                            "widgetType": "image",
+                            "settings": {
+                                "image": {
+                                    "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuDe5vdXtfPYT3lre6gyNRzfBtCYM4Uo-rESvD8nr_0gdeg5TmVRxEAb3iCXraUCF8WlH08RoY3YTPkfoTrb7iCoePPE7t7mBfiAN7oEsSxh3X3HsX-sNz_WqBw6B_JiHgRbXayiABFaajMySJLlZYBvc9TTy6YYb1aTlKbtyA307lIHRCatJ0pTBlkP1AaPBHlZvB7I3zIWKIk3k_jlB6MN_mKzr-f5T9YuxikUV4JqAECXxpN5f9hQtd3UCM2b8qWNLLB0iXB-IVBE"
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": 24,
+                                    "bottom": 24,
+                                    "left": 24,
+                                    "right": 24
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Manu Home High Fidelity",
+    "type": "page"
+}

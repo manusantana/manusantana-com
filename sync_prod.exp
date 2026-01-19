@@ -1,0 +1,15 @@
+#!/usr/bin/expect
+
+set timeout -1
+spawn scp -P 65002 -r u640336053@82.25.102.202:domains/manusantana.com/public_html/* .
+expect {
+    "password:" {
+        send "My)x,,2(HUr'4(.oeo'9\r"
+        exp_continue
+    }
+    "yes/no" {
+        send "yes\r"
+        exp_continue
+    }
+    eof
+}

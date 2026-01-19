@@ -1,0 +1,50 @@
+<svg viewBox="0 0 556 556" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="556.000000" height="556.000000" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_3">
+			<effect x="5.000000" y="5.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.25" effectType="innerShadow" stdDeviation="4" radius="0" />
+		</g>
+		<filter id="filter_3" width="556.000000" height="556.000000" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_3)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 " />
+			<feOffset dx="5.000000" dy="5.000000" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="1.33333337" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="arithmetic" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 " />
+			<feBlend result="effect_innerShadow_1" in2="shape" mode="normal" />
+		</filter>
+		<g id="pixso_custom_effect_4">
+			<effect x="0.000000" y="0.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.25" effectType="dropShadow" stdDeviation="13" radius="9" />
+		</g>
+		<filter id="filter_4" width="556.000000" height="556.000000" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_4)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feOffset dx="-0.000000" dy="-0.000000" in="SourceAlpha" />
+			<feMorphology radius="9" operator="dilate" />
+			<feOffset dx="0.000000" dy="0.000000" />
+			<feGaussianBlur stdDeviation="4.33333349" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+		<g id="pixso_custom_effect_5">
+			<effect x="-4.000000" y="7.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.25" effectType="innerShadow" stdDeviation="4" radius="0" />
+		</g>
+		<filter id="filter_5" width="377.663361" height="205.306885" x="87.901001" y="174.079224" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_5)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feBlend result="shape" in="SourceGraphic" in2="BackgroundImageFix" mode="normal" />
+			<feOffset dx="-4.000000" dy="7.000000" in="SourceAlpha" />
+			<feGaussianBlur stdDeviation="1.33333337" />
+			<feComposite k2="-1" k3="1" in2="SourceAlpha" operator="arithmetic" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 " />
+			<feBlend result="effect_innerShadow_1" in2="shape" mode="normal" />
+		</filter>
+	</defs>
+	<g id="Icono" filter="url(#filter_3)">
+		<g filter="url(#filter_4)">
+			<rect id="Rectangle 2" width="512.000000" height="512.000000" x="22.000000" y="22.000000" rx="25.000000" fill="rgb(1,22,64)" />
+		</g>
+		<g filter="url(#filter_5)">
+			<path id="Vector 7" d="M349.113 372.396C362.591 377.056 375.547 379.386 387.98 379.386C404.442 379.386 418.467 376.461 430.055 370.612Q446.519 362.266 455.485 348.892Q456.025 348.087 456.538 347.263C462.556 337.596 465.564 327.186 465.564 316.032C465.564 302.25 462.207 290.997 455.493 282.272Q445.422 269.111 426.772 261.824L402.602 252.38C393.65 248.91 386.513 245.911 381.191 243.382C375.92 240.854 373.284 237.26 373.284 232.6C373.284 228.139 375.174 224.792 378.953 222.562C382.733 220.331 387.781 219.216 394.097 219.216C401.408 219.216 408.172 220.43 414.389 222.859C420.605 225.288 427.071 228.833 433.785 233.493L460.044 200.626Q451.54 192.333 441.547 186.666Q435.41 183.187 428.712 180.697C417.024 176.285 405.486 174.079 394.097 174.079C379.625 174.079 366.819 176.88 355.678 182.482Q340.531 190.133 331.321 202.283Q330.416 203.478 329.568 204.715Q325.371 210.843 323.033 217.612Q320.094 226.123 320.094 235.649Q320.094 252.689 327.798 264.846Q329.743 267.915 332.179 270.672Q341.787 281.55 353.8 287.822Q356.897 289.439 360.154 290.749L384.922 301.085Q397.454 305.993 404.616 309.637C409.39 312.066 411.778 315.635 411.778 320.345Q411.778 323.924 410.241 326.632Q408.905 328.986 406.406 330.681C402.875 333.11 397.131 334.324 389.174 334.324Q378.208 334.324 365.824 329.045C357.568 325.475 349.859 320.84 342.698 315.139L312.783 351.055Q322.438 359.614 333.499 365.555Q340.984 369.575 349.113 372.396ZM87.901 375.743L87.901 177.797L144.15 177.797L174.064 258.775Q176.824 267.029 179.212 275.878C180.853 281.727 182.594 287.602 184.434 293.501L185.702 293.501Q188.388 284.652 190.849 275.878C192.491 269.978 194.231 264.277 196.071 258.775L224.792 177.797L281.041 177.797L281.041 375.743L233.371 375.743L233.371 317.296C233.371 310.554 233.769 302.969 234.565 294.542Q235.759 281.901 237.251 269.111C238.295 260.584 239.24 253.074 240.085 246.58L238.817 246.58L222.331 294.096L197.862 359.607L169.812 359.607L145.343 294.096L129.453 246.58L128.26 246.58Q129.453 256.321 130.945 269.111C131.99 277.637 132.91 286.114 133.706 294.542C134.551 302.969 134.974 310.554 134.974 317.296L134.974 375.743L87.901 375.743Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,345 @@
+{
+    "content": [
+        {
+            "id": "hero_section_v3",
+            "elType": "section",
+            "settings": {
+                "layout": "full_width",
+                "structure": "10",
+                "padding": {
+                    "unit": "px",
+                    "top": 120,
+                    "bottom": 120,
+                    "left": 20,
+                    "right": 20
+                },
+                "background_background": "gradient",
+                "background_color": "#0F1A29",
+                "background_color_b": "#1D2B3F",
+                "background_gradient_angle": {
+                    "unit": "deg",
+                    "size": 135
+                },
+                "custom_css": "selector { position: relative; overflow: hidden; } selector::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; }"
+            },
+            "elements": [
+                {
+                    "id": "hero_col_v3",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "layout": "default"
+                    },
+                    "elements": [
+                        {
+                            "id": "hero_badge_v3",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Consultor Estratégico B2B · IA & Growth",
+                                "header_size": "div",
+                                "align": "center",
+                                "title_color": "#F5F7FA",
+                                "typography_typography": "custom",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 13
+                                },
+                                "typography_font_weight": "600",
+                                "typography_text_transform": "uppercase",
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1
+                                },
+                                "custom_css": "selector { display: flex; justify-content: center; } selector .elementor-heading-title { display: inline-block; padding: 8px 24px; background: rgba(245, 247, 250, 0.1); border-radius: 50px; border: 1px solid rgba(245, 247, 250, 0.2); backdrop-filter: blur(10px); }"
+                            }
+                        },
+                        {
+                            "id": "hero_h1_v3",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Escala tu B2B unificando <span class=\"gradient-text\">Estrategia Comercial</span> e <span class=\"gradient-text\">Inteligencia Artificial</span>.",
+                                "header_size": "h1",
+                                "align": "center",
+                                "title_color": "#F5F7FA",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Space Grotesk",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 4,
+                                    "tablet": 3,
+                                    "mobile": 2.2
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.1
+                                },
+                                "typography_font_weight": "700",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": 30,
+                                    "bottom": 30
+                                },
+                                "custom_css": "selector .gradient-text { background: linear-gradient(135deg, #4FA1CA 0%, #A78BFA 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; }"
+                            }
+                        },
+                        {
+                            "id": "hero_desc_v3",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "De la captación al cierre. Transformo departamentos de marketing y ventas implementando flujos de trabajo automatizados que generan ingresos reales.",
+                                "align": "center",
+                                "text_color": "rgba(245, 247, 250, 0.8)",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Inter",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 1.25
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "bottom": 40
+                                },
+                                "custom_css": "selector { max-width: 800px; margin-left: auto; margin-right: auto; }"
+                            }
+                        },
+                        {
+                            "id": "hero_btns_v3",
+                            "elType": "section",
+                            "isInner": true,
+                            "settings": {
+                                "content_width": "auto",
+                                "gap": "narrow"
+                            },
+                            "elements": [
+                                {
+                                    "id": "btn_col_v3_1",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "layout": "default"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "btn_wrap_v3",
+                                            "elType": "widget",
+                                            "widgetType": "html",
+                                            "settings": {
+                                                "html": "<div style=\"display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;\">\n  <a href=\"#soluciones\" style=\"background: linear-gradient(135deg, #4FA1CA 0%, #A78BFA 100%); color: white; padding: 16px 32px; border-radius: 50px; font-weight: 600; text-decoration: none; box-shadow: 0 4px 15px rgba(79, 161, 202, 0.4); transition: all 0.3s;\">Ver Soluciones</a>\n  <a href=\"#contacto\" style=\"background: rgba(255,255,255,0.1); color: white; padding: 16px 32px; border-radius: 50px; font-weight: 500; text-decoration: none; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(5px); transition: all 0.3s;\">Agendar Diagnóstico</a>\n</div>"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "sol_section_v3",
+            "elType": "section",
+            "settings": {
+                "background_color": "#F0F4F8",
+                "padding": {
+                    "unit": "px",
+                    "top": 100,
+                    "bottom": 100,
+                    "left": 20,
+                    "right": 20
+                }
+            },
+            "elements": [
+                {
+                    "id": "sol_col_v3",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "sol_header_v3",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Los 3 Pilares del Crecimiento B2B",
+                                "align": "center",
+                                "header_size": "h2",
+                                "title_color": "#0F1A29",
+                                "typography_font_family": "Space Grotesk",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 3
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "bottom": 60
+                                }
+                            }
+                        },
+                        {
+                            "id": "sol_inner_v3",
+                            "elType": "section",
+                            "isInner": true,
+                            "settings": {
+                                "gap": "wide"
+                            },
+                            "elements": [
+                                {
+                                    "id": "card_1_v3",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "custom_css": "selector > .elementor-element-populated { background: rgba(255,255,255,0.7); backdrop-filter: blur(20px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.5); padding: 40px 30px; transition: transform 0.3s ease; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.05); } selector:hover > .elementor-element-populated { transform: translateY(-5px); box-shadow: 0 20px 50px -10px rgba(0,0,0,0.1); }"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_1_v3",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-bullseye",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#ffffff",
+                                                "secondary_color": "transparent",
+                                                "custom_css": "selector .elementor-icon { background: linear-gradient(135deg, #4FA1CA, #2dd4bf); box-shadow: 0 8px 16px rgba(45, 212, 191, 0.2); }"
+                                            }
+                                        },
+                                        {
+                                            "id": "t1_v3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Growth B2B",
+                                                "header_size": "h3",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "d1_v3",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Estrategias de Account Based Marketing.",
+                                                "text_color": "#486581"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_2_v3",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "custom_css": "selector > .elementor-element-populated { background: rgba(255,255,255,0.7); backdrop-filter: blur(20px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.5); padding: 40px 30px; transition: transform 0.3s ease; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.05); } selector:hover > .elementor-element-populated { transform: translateY(-5px); box-shadow: 0 20px 50px -10px rgba(0,0,0,0.1); }"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_2_v3",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-microchip",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#ffffff",
+                                                "secondary_color": "transparent",
+                                                "custom_css": "selector .elementor-icon { background: linear-gradient(135deg, #A78BFA, #F472B6); box-shadow: 0 8px 16px rgba(244, 114, 182, 0.2); }"
+                                            }
+                                        },
+                                        {
+                                            "id": "t2_v3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "IA & Ops",
+                                                "header_size": "h3",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "d2_v3",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Automatización inteligente de procesos.",
+                                                "text_color": "#486581"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_3_v3",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "custom_css": "selector > .elementor-element-populated { background: rgba(255,255,255,0.7); backdrop-filter: blur(20px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.5); padding: 40px 30px; transition: transform 0.3s ease; box-shadow: 0 10px 40px -10px rgba(0,0,0,0.05); } selector:hover > .elementor-element-populated { transform: translateY(-5px); box-shadow: 0 20px 50px -10px rgba(0,0,0,0.1); }"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "icon_3_v3",
+                                            "elType": "widget",
+                                            "widgetType": "icon",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "fas fa-chart-line",
+                                                    "library": "fa-solid"
+                                                },
+                                                "view": "stacked",
+                                                "primary_color": "#ffffff",
+                                                "secondary_color": "transparent",
+                                                "custom_css": "selector .elementor-icon { background: linear-gradient(135deg, #F59E0B, #FCD34D); box-shadow: 0 8px 16px rgba(252, 211, 77, 0.2); }"
+                                            }
+                                        },
+                                        {
+                                            "id": "t3_v3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "RevOps",
+                                                "header_size": "h3",
+                                                "title_color": "#0F1A29",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": 20
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "d3_v3",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Alineación de equipos de ventas.",
+                                                "text_color": "#486581"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Manu Home V3 (One-Page Imports)",
+    "type": "page"
+}

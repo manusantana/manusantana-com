@@ -1,0 +1,246 @@
+{
+    "content": [
+        {
+            "id": "hero_section_v2",
+            "elType": "section",
+            "settings": {
+                "layout": "full_width",
+                "structure": "10",
+                "padding": {
+                    "unit": "px",
+                    "top": 100,
+                    "bottom": 100,
+                    "left": 20,
+                    "right": 20
+                },
+                "background_background": "classic",
+                "background_color": "#0F1A29"
+            },
+            "elements": [
+                {
+                    "id": "hero_col_v2",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100,
+                        "layout": "default"
+                    },
+                    "elements": [
+                        {
+                            "id": "hero_badge_v2",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "CONSULTOR ESTRATÉGICO B2B · IA & GROWTH",
+                                "align": "center",
+                                "title_color": "#F5F7FA",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 12
+                                }
+                            }
+                        },
+                        {
+                            "id": "hero_h1_v2",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Escala tu B2B unificando Estrategia Comercial e Inteligencia Artificial.",
+                                "header_size": "h1",
+                                "align": "center",
+                                "title_color": "#FFFFFF",
+                                "typography_font_family": "Space Grotesk",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 3
+                                }
+                            }
+                        },
+                        {
+                            "id": "hero_text_v2",
+                            "elType": "widget",
+                            "widgetType": "text-editor",
+                            "settings": {
+                                "editor": "<p style='color: #F5F7FA;'>De la captación al cierre. Transformo departamentos de marketing y ventas implementando flujos de trabajo automatizados.</p>",
+                                "align": "center"
+                            }
+                        },
+                        {
+                            "id": "hero_btn_v2",
+                            "elType": "widget",
+                            "widgetType": "button",
+                            "settings": {
+                                "text": "Ver Soluciones",
+                                "align": "center",
+                                "button_text_color": "#FFFFFF",
+                                "background_color": "#4FA1CA"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "solutions_section_v2",
+            "elType": "section",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#F0F4F8",
+                "padding": {
+                    "unit": "px",
+                    "top": 80,
+                    "bottom": 80
+                }
+            },
+            "elements": [
+                {
+                    "id": "sol_header_v2",
+                    "elType": "column",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "sol_h2_v2",
+                            "elType": "widget",
+                            "widgetType": "heading",
+                            "settings": {
+                                "title": "Soluciones Directas",
+                                "align": "center",
+                                "title_color": "#0F1A29"
+                            }
+                        },
+                        {
+                            "id": "sol_inner_v2",
+                            "elType": "section",
+                            "isInner": true,
+                            "settings": {},
+                            "elements": [
+                                {
+                                    "id": "card_1_v2",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "#FFFFFF",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 20,
+                                            "bottom": 20,
+                                            "left": 20,
+                                            "right": 20
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "t1",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "Growth B2B",
+                                                "header_size": "h3"
+                                            }
+                                        },
+                                        {
+                                            "id": "d1",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Estrategias de expansión."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_2_v2",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "#FFFFFF",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 20,
+                                            "bottom": 20,
+                                            "left": 20,
+                                            "right": 20
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "t2",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "IA & Ops",
+                                                "header_size": "h3"
+                                            }
+                                        },
+                                        {
+                                            "id": "d2",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Automatización inteligente."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "card_3_v2",
+                                    "elType": "column",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "background_color": "#FFFFFF",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": 20,
+                                            "bottom": 20,
+                                            "left": 20,
+                                            "right": 20
+                                        },
+                                        "margin": {
+                                            "unit": "px",
+                                            "right": 10,
+                                            "left": 10
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "t3",
+                                            "elType": "widget",
+                                            "widgetType": "heading",
+                                            "settings": {
+                                                "title": "RevOps",
+                                                "header_size": "h3"
+                                            }
+                                        },
+                                        {
+                                            "id": "d3",
+                                            "elType": "widget",
+                                            "widgetType": "text-editor",
+                                            "settings": {
+                                                "editor": "Alineación de ventas."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Manu Home V2 (Simple Debug)",
+    "type": "page"
+}
