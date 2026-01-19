@@ -119,7 +119,7 @@
   /* Softer dark text */
   --chat--color-disabled: #94a3b8;
   --chat--color-typing: #475569;
-  --chat--spacing: 1rem;
+  --chat--spacing: 0.75rem;
   --chat--border-radius: 12px;
   /* Smoother corners */
   --chat--transition-duration: .20s;
@@ -1102,7 +1102,7 @@ body[data-theme=dark] .hljs-deletion {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1em;
+  gap: 0.25rem;
   height: var(--chat--header-height, auto);
   padding: var(--chat--header--padding, var(--chat--spacing));
   background: var(--chat--header--background, var(--chat--color-dark));
@@ -1115,12 +1115,14 @@ body[data-theme=dark] .hljs-deletion {
 
 .chat-layout .chat-header h1 {
   font-size: var(--chat--heading--font-size);
-  color: var(--chat--header--color, var(--chat--color-light))
+  color: var(--chat--header--color, var(--chat--color-light));
+  margin: 0;
 }
 
 .chat-layout .chat-header p {
   font-size: var(--chat--subtitle--font-size, inherit);
-  line-height: var(--chat--subtitle--line-height, 1.8)
+  line-height: var(--chat--subtitle--line-height, 1.3);
+  margin: 0;
 }
 
 .chat-layout .chat-body {
